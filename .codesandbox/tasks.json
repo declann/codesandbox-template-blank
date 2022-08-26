@@ -15,7 +15,7 @@
       "runAtStart": false
     },
     "run": {
-      "name": "test",
+      "name": "run",
       "command": "npm run run",
       "runAtStart": true
     }
