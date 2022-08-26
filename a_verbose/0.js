@@ -1,0 +1,1 @@
+export const a = ({ a_in }) => a_in;

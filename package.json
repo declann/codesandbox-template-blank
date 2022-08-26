@@ -1,0 +1,23 @@
+{
+  "name": "codesandbox-template-blank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/declann/codesandbox-template-blank.git"
+  },
+  "bugs": {
+    "url": "https://github.com/declann/codesandbox-template-blank/issues"
+  },
+  "homepage": "https://github.com/declann/codesandbox-template-blank#readme",
+  "devDependencies": {
+    "cowsay": "^1.5.0"
+  },
+  "dependencies": {
+    "@calculang/calculang-js": "^0.1.0-alpha.5"
+  }
+}
