@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "run": "node ./use-a.js"
+    "build": "cul-js compile ./a.cul.js",
+    "run": "node ./use-a.js > output-a.txt"
   },
   "repository": {
     "type": "git",
