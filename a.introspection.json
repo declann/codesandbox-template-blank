@@ -1,0 +1,42 @@
+{
+  "cul_functions": {
+    "0_a": {
+      "cul_scope_id": 0,
+      "name": "a",
+      "cul_source_scope_id": 0,
+      "reason": "definition",
+      "inputs": [
+        "a_in"
+      ]
+    },
+    "0_a_in": {
+      "cul_scope_id": 0,
+      "name": "a_in",
+      "cul_source_scope_id": 0,
+      "reason": "input definition",
+      "inputs": [
+        "a_in"
+      ]
+    }
+  },
+  "cul_links": [
+    {
+      "to": "0_a",
+      "from": "0_a_in",
+      "reason": "input"
+    }
+  ],
+  "cul_scope_ids_to_resource": {
+    "0": "./a.cul.js"
+  },
+  "import_sources_to_resource": {},
+  "cul_input_map": {
+    "0_a": [
+      "a_in"
+    ],
+    "0_a_in": [
+      "a_in"
+    ]
+  },
+  "dot": "digraph {\n  \"0_a\" [cul_scope_id=0,name=a,cul_source_scope_id=0,reason=definition,inputs=a_in,label=\"0_a inputs: a_in\"]\n  \"0_a_in\" [cul_scope_id=0,name=a_in,cul_source_scope_id=0,reason=\"input definition\",inputs=a_in,label=\"0_a_in inputs: a_in\"]\n  \"0_a_in\" -> \"0_a\" [value=\"[object Object]\",label=\"input +a_in\"]\n}\n"
+}
